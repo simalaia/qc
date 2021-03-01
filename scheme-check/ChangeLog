@@ -1,0 +1,20 @@
+2003-08-22  Carlos Eduardo Scheidegger  <carlos@trillian.krikkit>
+
+	* Added new file paper-examples.ss, with most examples of the
+	QuickCheck paper ported to Scheme-Check.
+
+	* Cleaned up comments: most contracts now use proper PLT syntax.
+
+	* Fixed problem with gen-do macro, redesigned oneof and frequency
+	to support recursive type generators (wrapped delay/force around
+	stuff).
+
+
+2003-08-17  Carlos Eduardo Scheidegger  <carlos@trillian.krikkit>
+
+	* V0.2
+
+	First release.
+	
+
+	* Started ChangeLog
